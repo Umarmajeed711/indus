@@ -1,0 +1,55 @@
+
+
+#demo{
+    position: relative;
+}
+#back{
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.first{
+    display:flex;
+    column-gap: 30px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    transition: all .5s;
+    border:none;
+    padding:  10px;
+    font-weight: 700;
+}
+.red:hover, .red:active{
+    background-color: rgb(19, 19, 167);
+}
+.old{
+    display: flex;
+    align-content: center !important;
+    height: 100px;
+    background-color: white;
+    opacity: .8;
+    align-items: center;
+}
+.mynav{
+    display:flex;
+}
+.nice:hover ,.nice:active{
+    background-color: rgb(19, 19, 167) !important;
+    border: none;
+    color: white;
+    transition: all .5s;
+    border:none;
+    
+}
+.sub{
+    background-color: white;
+    opacity: .9;
+    margin-top: -70px;
+    z-index: 2;
+}
+
+
